@@ -379,12 +379,14 @@ nav .nav-toggler:hover{
   overflow: hidden;
   margin-bottom: 24px;
   height: 200px;
-  width: 300px;
+  width: auto;
+  aspect-ratio: 16/9;
 }
 .proj-imgbx img{
   object-fit: cover;
   height: 100%;
   width: 100%;
+  aspect-ratio: 16/9;
 }
 .proj-imgbx::before {
   content: "";
@@ -471,7 +473,7 @@ nav .nav-toggler:hover{
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  padding: 20px;
+  padding: 8px;
   font-family: Centra, sans-serif;
 }
 .contact button{
@@ -649,7 +651,7 @@ nav .nav-toggler:hover{
     border-radius: 15px;
     margin-bottom: 12px;
     height: auto;
-    width: 40%;
+    width: 100%;
     aspect-ratio: 16/9;
   }
   .proj-txtx a h4{
